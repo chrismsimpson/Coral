@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "run",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/main",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build",
+            "internalConsoleOptions": "neverOpen",
+            "logging": {
+                "moduleLoad": false,
+                "engineLogging": false,
+                "elapsedTiming": false,
+                "exceptions": true,
+                "processExit": true,
+                "programOutput": true,
+                "threadExit": false
+            }
+        }
+    ]
+}
